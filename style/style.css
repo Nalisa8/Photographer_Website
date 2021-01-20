@@ -1,3 +1,68 @@
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
 }
+/* Title*/
+
+.title-dec {
+  text-decoration: none;
+  overflow: hidden;
+}
+
+/* Navigation Bar styling */
+.nav-bar {
+  width: fit-content;
+  margin: auto;
+  padding-left: 1px;
+}
+
+h1 {
+  margin: 20px 10px 20px 550px;
+}
+
+#nav-bar {
+  position: sticky;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 450px 0px 450px;
+  overflow: hidden;
+  background-color: #333;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Editing the image */
+img {
+  height: 750px;
+  width: 1445px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 30px;
+}
+
+.background {
+  background-color: grey;
+}
+
+< !-- custom styling for all icons -->
