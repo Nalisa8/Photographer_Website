@@ -4,6 +4,7 @@ body {
 /* Title*/
 
 .title-dec {
+  list-style-type: none;
   text-decoration: none;
   overflow: hidden;
 }
@@ -61,8 +62,29 @@ footer {
   padding: 30px;
 }
 
-.background {
-  background-color: grey;
+.foot-container{
+  display: flex;
+  flex-wrap: nowrap;
+
 }
 
+.contact{
+background-color: grey;
+margin-left: 20px;
+padding: 20px;
+}
+
+.address{
+background-color: grey;
+margin-left: 1000px;
+padding: 20px;
+
+}
+i.fas{
+  font-size: 10px;
+
+}
+.fa-at{
+  color: aqua;
+}
 < !-- custom styling for all icons -->
