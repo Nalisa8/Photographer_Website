@@ -1,13 +1,62 @@
-p.sub-t{
-   margin: 0px 300px 0px 300px;
-}
-div.form-container{
 
-margin: 0px 400px 0px 400px;
+
+
+/* h1.cont-ttl {
+    margin: 30px 0px 30px 0px;
+
+} */
+
+p.sub-t {
+        margin-left: 300px;
+        margin-bottom: 60px;
+    }
+
+
+/* Styling the Form */
+
+
+
+div.form-container{
+margin: 0px 557px 0px 400px;
 }
-label#email{
-    margin: 0px 30px 0px 30px;
+
+input#fname {
+    padding:5px 20px 5px 20px;
+    margin: 0px 30px 0px 15px;
+}
+
+input#lname{
+    padding:5px 20px 5px 20px;
+    margin-left: 30px;
 }
 input#email{
-margin: 0px 200px 0px 200px;
+padding: 5px 130px 5px 200px;
+}
+
+input#mob-numb {
+    padding: 5px 130px 5px 200px;
+}
+input#wed-lday {
+    padding: 5px 130px 5px 200px;
+}
+input#more-loc {
+    padding: 5px 130px 5px 200px;
+}
+input#more-info {
+    padding: 5px 130px 5px 200px;
+}
+
+input#info {
+    padding: 5px 130px 5px 200px;
+}
+
+
+input#sub-butn{
+    background-color: rgb(238, 238, 238);
+    border: 1ch;
+    border-radius: 5%;
+    padding: 5px 20px 5px 10px;
+    margin-left: 200px;
+    margin-bottom: 300px;
+
 }

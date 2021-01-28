@@ -15,7 +15,6 @@
     </a>
   </div>
   <header>
-    <!--Navigation bar -->
     <div class="nav-bar">
       <ul class="menu-color">
         <li><a href="portfolio.html">Portfolio</a> </li>
@@ -26,48 +25,44 @@
       </ul>
     </div>
   </header>
-  <h1>Contact Me</h1>
+  <h1 class="cont-ttl">Contact Me</h1>
   <p class="sub-t">Please get in touch to check availability, If you have any questions or would like to arrange a meeting.</p>
-  <br>
-  
+ 
+  <!-- Form Section -->
   <div class="form-container">
-    <hr>
     <form action="/action_page.php">
+       <hr size="1">
       <p>Name 1*</p>
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname">
+      <input type="text" id="fname" name="fname" required="required" placeholder="First name">
+      <input type="text" id="lname" name="lname" required="required" placeholder="Last name"><br><br>
 
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname"><br><br>
       <p>Name 2*</p>
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname">
+      <input type="text" id="fname" name="fname" required="required" placeholder="First name">
+      <input type="text" id="lname" name="lname" required="required" placeholder="Last name"><br><br>
 
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname"><br><br>
-
-      <label  class="email" for="fname">email:</label><br><br>
-      <input type="text" id="email" name="fname"><br><br>
+      <label  for="fname">Email:</label><br><br>
+      <input type="text" id="email" name="email" required="required"><br><br>
 
       <label for="fname">Mobile number:</label><br><br>
-      <input type="text" id="mob-numb" name="fname"><br><br>
+      <input type="text" id="mob-numb" name="mob-numb"><br><br>
 
       <label for="fname">Wedding day:</label><br><br>
-      <input type="text" id="wed-lday" name="fname"><br><br>
+      <input type="text" id="wed-lday" name="wed-lday"><br><br>
 
       <label for="fname">Wedding Location:</label><br><br>
-      <input type="text" id="more-loc" name="fname"><br><br>
+      <input type="text" id="more-loc" name="more-loc"><br><br>
 
       <label for="fname">Tell me a little about your wedding plans *:</label><br><br>
-      <input type="text" id="more-info" name="fname"><br><br>
+      <input type="text" id="more-info" name="more-info" required="required"><br><br>
 
       <label for="fname">Where did you hear about me?:</label><br><br>
-      <input type="text" id="info" name="fname"><br><br>
+      <input type="text" id="info" name="info"><br><br>
 
-      <input type="submit" value="Submit">
+      <input id="sub-butn" type="submit" value="Submit">
     </form>
   </div>
-  <!-- Info -->
+
+  <!--Info Section-->
   <footer>
     <div class="foot-container">
       <div class="contact">
