@@ -1,11 +1,5 @@
 
 
-
-/* h1.cont-ttl {
-    margin: 30px 0px 30px 0px;
-
-} */
-
 p.sub-t {
         margin-left: 300px;
         margin-bottom: 60px;
@@ -42,7 +36,7 @@ input#wed-lday {
 input#more-loc {
     padding: 5px 130px 5px 200px;
 }
-input#more-info {
+textarea#more-info {
     padding: 5px 130px 5px 200px;
 }
 
