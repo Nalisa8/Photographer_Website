@@ -72,23 +72,7 @@ footer {
 }
 
 .contact{
-background-color: grey;
+background-color: hsla(0, 0%, 50%, 0.514);
 position:relative;
-
-padding: 20px;
+padding: 80px;
 }
-
-.address{
-background-color: grey;
-
-padding: 20px;
-
-}
-i.fas{
-  font-size: 10px;
-
-}
-.fa-at{
-  color: aqua;
-}
-
